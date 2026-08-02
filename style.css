@@ -98,9 +98,10 @@ nav ul li a:hover{
     color:#ff3d00;
 }
 
- .hero{
+  .hero{
     height:100vh;
-     background: url("images/banner.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+                url("images/banner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
