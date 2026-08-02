@@ -1,0 +1,279 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CineBook | Movie Ticket Booking</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+ <h2 class="logo">
+    <i class="fas fa-film"></i>
+    CINEPOLIS
+</h2>
+
+<ul>
+
+ <li><a href="#home">Home</a></li>
+
+<li><a href="#movies">Movies</a></li>
+
+<li><a href="#booking">Booking</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+ <section class="hero" id="home"> 
+
+<div class="overlay">
+
+<h1>
+
+Book Your Favorite Movie
+
+</h1>
+
+<p>
+
+Fast • Easy • Secure Booking
+
+</p>
+
+<a href="#movies">
+
+<button>
+
+Book Now
+
+</button>
+
+</a>
+
+</div>
+
+</section>
+
+<section id="movies">
+
+<h1 class="title">
+
+Now Showing
+
+</h1>
+
+<div class="movies">
+
+<div class="movie">
+
+<img src="images/movie1.jpg">
+
+<h2>Khalifa</h2>
+
+<p>⭐ 9.2/10</p>
+
+<button>Select</button>
+
+</div>
+
+<div class="movie">
+
+<img src="images/movie2.jpg">
+
+<h2>Spider Man</h2>
+
+<p>⭐ 8.9/10</p>
+
+<button>Select</button>
+
+</div>
+
+<div class="movie">
+
+<img src="images/movie3.jpg">
+
+<h2>Toxic</h2>
+
+<p>⭐ 8.8/10</p>
+
+<button>Select</button>
+
+</div>
+
+<div class="movie">
+
+<img src="images/movie4.jpg">
+
+<h2> The Odyssey</h2>
+
+<p>⭐ 8.5/10</p>
+
+<button>Select</button>
+
+</div>
+
+</div>
+
+</section>
+
+  <section class="booking" id="booking">
+    <h2>Book Tickets</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email" required>
+
+        <select>
+            <option>Select Movie</option>
+            <option>Khalifa</option>
+            <option>Spider-Man</option>
+            <option>Toxic</option>
+            <option>The Odyssey</option>
+        </select>
+
+         
+
+         
+     
+ 
+<label>
+
+Seats
+
+</label>
+
+<input
+type="number"
+id="seat"
+min="1"
+max="10"
+value="1">
+
+<p>
+
+Price Per Seat : ₹200
+
+</p>
+
+<h2>
+
+Total :
+₹<span id="total">
+
+200
+
+</span>
+
+</h2>
+ 
+<button
+type="submit">
+
+Confirm Booking
+</form>
+</section>
+</button>
+
+</form>
+
+</section>
+<!-- Contact Section -->
+
+<section id="contact">
+
+<h1 class="title">Contact Us</h1>
+
+<div class="contact-box">
+
+<div class="contact-info">
+
+<h2>Cinepolis</h2>
+
+<p><i class="fas fa-map-marker-alt"></i> Kannur, Kerala</p>
+
+<p><i class="fas fa-phone"></i> +91 9876543210</p>
+
+<p><i class="fas fa-envelope"></i> cinepolis@gmail.com</p>
+
+</div>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<textarea rows="5" placeholder="Message"></textarea>
+
+<button type="submit">
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<div class="footer-content">
+
+<h2>🎬 Cinepolis</h2>
+
+<p>
+
+The easiest way to book your favorite movie tickets online.
+
+</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-twitter"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+<p class="copy">
+
+© 2026 Cinepolis. All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
