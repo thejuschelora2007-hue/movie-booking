@@ -1,4 +1,4 @@
- // Ticket Price Calculator
+  // Ticket Price Calculator
 
 const seatInput = document.getElementById("seat");
 const total = document.getElementById("total");
