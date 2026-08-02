@@ -100,7 +100,7 @@ nav ul li a:hover{
 
 .hero{
     height:100vh;
-    background:url("images/banner.jpg") center/cover;
+     background: url("banner.jpg");
     display:flex;
     justify-content:center;
     align-items:center;
